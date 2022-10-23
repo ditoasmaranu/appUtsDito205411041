@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonStyleMain" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#D6DBDF</item>
+        <item name="colorButtonNormal">#D6DBDF</item>
+    </style>
+
+    <style name="buttonstyletest" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#D6DBDF</item>
+        <item name="colorButtonNormal">#2E4053</item>
+        <item name="android:textColor">#85929E</item>
+    </style>
+
+
+</resources>
