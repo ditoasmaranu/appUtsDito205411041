@@ -4,7 +4,7 @@ import android.content.Intent
 import  androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-#test
+//test
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun toArticle(view: View) {
         //berfungsi membuat variabel intent dengan dan diisi dengan menggunakan sintaks dari
-        //pemanggilan function Intent dengan memanggil class MainActivity2
+        //pemanggilan function Intent dengan memanggil class ArticleActivity
         val intent = Intent(this@MainActivity, ArticleActivity::class.java)
         //memanggil function startActivity dengan paramater nilai dari variabel intent
         startActivity(intent)
